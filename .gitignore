@@ -1,0 +1,22 @@
+# Python / 临时产物
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.log
+*.tmp
+
+# 打包产物（用 tools/package_suite.py 生成，不进仓库）
+dist/
+*.zip
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 注意：用户实际产生的账号档案写在 <用户工作区>/账号/ 下，不属于本套件，
+# 不应提交到本仓库。若你把本仓库当工作区使用，请取消下面一行的注释：
+# 账号/
