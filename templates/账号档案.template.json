@@ -1,0 +1,104 @@
+{
+  "schema": "shortvideo-coach/account-profile@1",
+  "_comment": "空档案模板。coach 建档时复制本文件为 <工作区>/账号/<账号名>/账号档案.json，并按每轮答案填写；未问到的字段保持 null，不得猜测填充。",
+  "updatedAt": null,
+  "roundsCompleted": [],
+  "roundInProgress": 0,
+  "identity": {
+    "companyName": null,
+    "city": null,
+    "serviceRadius": null,
+    "district": null,
+    "inMarketplace": null,
+    "locationType": null,
+    "categories": [],
+    "years": null,
+    "credentials": [],
+    "bestSellers": null,
+    "priceB2B": null,
+    "priceB2C": null,
+    "margin": null,
+    "leadTime": null,
+    "differentiator": null,
+    "teamSize": null,
+    "onCameraPeople": null,
+    "businessGoal": null,
+    "deliveryCapability": null
+  },
+  "audience": {
+    "mixBC": null,
+    "radius": null,
+    "excludedAudience": null,
+    "platforms": [],
+    "videoAccountFansBaseline": null,
+    "topCustomerQuestions": [],
+    "topCustomerQuestionsStatus": null
+  },
+  "monetization": {
+    "primary": null,
+    "firstHundredYuanFrom": null,
+    "convergenceTestPassed": null,
+    "leadEntryPoints": {
+      "total": 6,
+      "open": [],
+      "missing": [],
+      "openCount": null,
+      "action": null
+    },
+    "hasFixedTailCTA": null,
+    "leadOwner": null,
+    "leadLogging": null,
+    "salesCycle": null
+  },
+  "capacity": {
+    "shootHoursPerWeek": null,
+    "shootSessionHours": null,
+    "itemsPerShoot": null,
+    "minutesPerEdit": null,
+    "editHoursPerWeek": null,
+    "weeklyPublishCeiling": { "low": null, "mid": null, "high": null },
+    "bottleneck": null,
+    "dualPlatformDerivation": null,
+    "source": "建材手册 01 的 0.2 测算表 + 矩阵 01 第五节（▸ 落地建议，非官方 SOP）"
+  },
+  "resources": {
+    "onCameraAvailability": null,
+    "shootLocations": [],
+    "samplesCanBeCut": null,
+    "equipment": null,
+    "budget": null,
+    "dailyHours": null,
+    "fullTime": null
+  },
+  "accountStatus": {
+    "existingAccounts": [],
+    "publishedContent": null,
+    "restrictedHistory": null
+  },
+  "contentAssets": {
+    "caseStudies": null,
+    "factoryFootage": null,
+    "reusableMaterial": null,
+    "oneShootMultipleAccounts": null
+  },
+  "goals": {
+    "leadTarget": null,
+    "period": null,
+    "assessedBy": null,
+    "acceptsNonFollowerMetric": null
+  },
+  "compliance": {
+    "violationHistory": null,
+    "competitors": null,
+    "decisionMakerSupport": null,
+    "matrixRulesAcknowledged": null,
+    "resultPromiseDeclined": null
+  },
+  "fork": {
+    "preliminaryVerdict": null,
+    "reason": null,
+    "confirmed": false,
+    "blockedBy": []
+  },
+  "pendingFields": []
+}

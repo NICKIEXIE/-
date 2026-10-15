@@ -1,0 +1,43 @@
+{
+  "name": "dsh-shortvideo-suite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Short-video operations skill suite: intake-driven coaching, launch planning, production, paid growth, agency business, and team building, backed by the 薛辉 training manual and a building-materials matrix-operations manual.",
+  "author": "NICKIE XIE 谢宇翔",
+  "main": "./plugin/index.mjs",
+  "exports": {
+    ".": "./plugin/index.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "INSTALL.md",
+    "README.md",
+    "cordis.patch.yml",
+    "plugin",
+    "scripts",
+    "templates",
+    "tools",
+    "docs",
+    "knowledge",
+    "shortvideo-coach",
+    "shortvideo-advisor",
+    "shortvideo-launch",
+    "shortvideo-production",
+    "shortvideo-growth",
+    "shortvideo-agency",
+    "shortvideo-team"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
